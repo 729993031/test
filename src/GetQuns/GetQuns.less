@@ -1,0 +1,121 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 73px;
+  margin-bottom: 4px;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+.headerTitle {
+  width: 128px;
+  margin-bottom: 5px;
+  line-height: 52px;
+}
+.contentHeader {
+  flex: 1;
+  height: 106px;
+}
+.searchHeader {
+  display: flex;
+  align-items: center;
+  height: 106px;
+  border-bottom: 2px solid #e0e0e0;
+}
+.inputBar {
+  width: 191px;
+  height: 48px;
+  margin-right: 32px;
+  margin-left: 29px;
+  font-size: 14px;
+}
+.searchButton {
+  width: 64px;
+  height: 36px;
+  color: #fff;
+  background-color: #38b9ff;
+}
+
+.content {
+  margin: 0 10px 0 14px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.messageList {
+  display: flex;
+  flex-direction: column;
+  min-height: 1277px;
+  padding: 0 12px;
+  border: 1px solid #e0e0e0;
+}
+.messageItem {
+  display: flex;
+  align-items: center;
+}
+.messageIndex {
+  width: 98px;
+  height: 100%;
+  text-align: center;
+}
+.messagePhoto {
+  width: 60px;
+  height: 60px;
+  margin-right: 25px;
+}
+.messageName {
+  font-size: 13px;
+  font-family: 'Roboto-regular', sans-serif;
+}
+.switchItem {
+  display: flex;
+  align-items: center;
+  margin: 0 21px 0 67px;
+}
+.switchButton {
+  width: 35px;
+  margin-right: 11px;
+}
+.switchName {
+  width: 106px;
+  text-align: center;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+}
+.modalWrapper {
+  :global {
+    .ant-modal-header {
+      border: 0;
+    }
+    .ant-modal {
+      width: 483px !important;
+    }
+    .ant-modal-footer {
+      border: 0;
+    }
+  }
+}
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'PingFangSC-regular', sans-serif;
+}
+.modalCancelButton,
+.modalAffirmButton {
+  width: 80px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
